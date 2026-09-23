@@ -102,4 +102,4 @@ def Deletstudent(roll: int):
         raise
     except Exception as e:
         print("ERROR:", e)
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail=str(e))
